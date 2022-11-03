@@ -1,0 +1,11 @@
+.TitleLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Title {
+  color: #4763e4;
+  margin: 10px;
+}
