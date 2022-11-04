@@ -1,0 +1,17 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Main-btn {
+  width: 530px;
+  height: 48px;
+  background-color: #4763e4;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}

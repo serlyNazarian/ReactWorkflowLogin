@@ -14,7 +14,7 @@ const Input = (props) => {
     return (
         <div className='Input'>
             <label className='MainLabel' htmlFor={props.label}>{props.title}</label>
-            <input
+            <input required
                 className={`MainInput ${isFocused ? 'class-focus' : ''}`}
                 onFocus={onFocus}
                 onBlur={onBlur}
